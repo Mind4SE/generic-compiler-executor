@@ -25,5 +25,5 @@
 ## Launcher class name
 LAUNCHER=org.ow2.mind.ctools.gnu.GnuCompilerExecutorLauncher
 
-#echo $(dirname $(readlink -m $0))/jar_launcher ${LAUNCHER} ${LAUNCHER} $*
-exec $(dirname $(readlink -m $0))/jar_launcher ${LAUNCHER} ${LAUNCHER} $*
+#echo $(dirname $0)/jar_launcher ${LAUNCHER} ${LAUNCHER} "$@"
+exec $(dirname $0)/jar_launcher ${LAUNCHER} ${LAUNCHER} "$@"
