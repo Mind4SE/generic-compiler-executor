@@ -29,44 +29,14 @@
         </fileSet>
     </fileSets>
 -->
+    <fileSets>
+        <fileSet>
+            <directory>src/assemble/resources</directory>
+            <outputDirectory>bin</outputDirectory>
+        </fileSet>
+    </fileSets>
+<!-- 
     <files>
-        <file>
-            <source>src/assemble/resources/ccs_generic_compiler</source>
-            <fileMode>0755</fileMode>
-            <outputDirectory>bin</outputDirectory>
-            <filtered>true</filtered>
-        </file>
-        <file>
-            <source>src/assemble/resources/gnu_generic_compiler</source>
-            <fileMode>0755</fileMode>
-            <outputDirectory>bin</outputDirectory>
-            <filtered>true</filtered>
-        </file>
-        <file>
-            <source>src/assemble/resources/ccs_generic_assembler</source>
-            <fileMode>0755</fileMode>
-            <outputDirectory>bin</outputDirectory>
-            <filtered>true</filtered>
-        </file>
-        <file>
-            <source>src/assemble/resources/gnu_generic_assembler</source>
-            <fileMode>0755</fileMode>
-            <outputDirectory>bin</outputDirectory>
-            <filtered>true</filtered>
-        </file>
-        <file>
-            <source>src/assemble/resources/ccs_generic_linker</source>
-            <fileMode>0755</fileMode>
-            <outputDirectory>bin</outputDirectory>
-            <filtered>true</filtered>
-        </file>
-        <file>
-            <source>src/assemble/resources/gnu_generic_linker</source>
-            <fileMode>0755</fileMode>
-            <outputDirectory>bin</outputDirectory>
-            <filtered>true</filtered>
-        </file>
- <!-- 
         <file>
             <source>src/assemble/resources/README.txt</source>
             <fileMode>0644</fileMode>
@@ -79,6 +49,6 @@
             <fileMode>0644</fileMode>
             <outputDirectory></outputDirectory>
         </file>
- -->
     </files>
+-->
 </assembly>
