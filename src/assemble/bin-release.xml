@@ -31,8 +31,8 @@
 -->
     <fileSets>
         <fileSet>
-            <directory>src/assemble/resources</directory>
-            <outputDirectory>bin</outputDirectory>
+            <directory>src/assemble/resources/</directory>
+            <outputDirectory>.</outputDirectory>
         </fileSet>
     </fileSets>
 <!-- 
